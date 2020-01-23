@@ -30,6 +30,7 @@
 
 /public/packs
 /public/packs-test
+
 !/public/img
 !/public/animate
 !/public/blueimp
