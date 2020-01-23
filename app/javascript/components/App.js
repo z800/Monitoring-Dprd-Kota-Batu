@@ -311,8 +311,8 @@ class App extends React.Component {
 						          ['Label', 'Value'],
 						          ['Memory', this.state.memory],
 						          ['CPU', this.state.cpu],
-						          ['Upload', this.state.rx],
-						          ['Download', this.state.tx],
+						          ['Upload', this.state.tx],
+						          ['Download', this.state.rx],
 						        ]}
 						        options={{
 						          redFrom: 90,
