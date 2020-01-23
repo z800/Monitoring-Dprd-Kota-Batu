@@ -13,6 +13,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 Rails.application.config.assets.precompile += %w(
   theme-night-admin.css
+  jquery/jquery-ui.min.css
 )
 # cust.js
 # jQAllRangeSliders-min.js ion.rangeSlider.css
