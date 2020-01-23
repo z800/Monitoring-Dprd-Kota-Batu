@@ -51,7 +51,7 @@ class Mrtg extends Component {
                           <center>
 
               							<img
-              								src={this.state.imageStatus ? "//202.164.218.74/graphs/iface/" + eth + "/daily.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
+              								src={this.state.imageStatus ? "http://202.164.218.74/graphs/iface/" + eth + "/daily.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
               								alt="John Doe"
               								className="mCS_img_loaded"
               								onLoad={this.handleImageLoaded.bind(this)}
@@ -85,7 +85,7 @@ class Mrtg extends Component {
                           <center>
 
               							<img
-              								src={this.state.imageStatus ? "//202.164.218.74/graphs/iface/" + eth + "/weekly.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
+              								src={this.state.imageStatus ? "http://202.164.218.74/graphs/iface/" + eth + "/weekly.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
               								alt="John Doe"
               								className="mCS_img_loaded"
               								onLoad={this.handleImageLoaded.bind(this)}
@@ -123,7 +123,7 @@ class Mrtg extends Component {
                           <center>
 
                             <img
-                              src={this.state.imageStatus ? "//202.164.218.74/graphs/iface/" + eth + "/monthly.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
+                              src={this.state.imageStatus ? "http://202.164.218.74/graphs/iface/" + eth + "/monthly.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
                               alt="John Doe"
                               className="mCS_img_loaded"
                               onLoad={this.handleImageLoaded.bind(this)}
@@ -157,7 +157,7 @@ class Mrtg extends Component {
                           <center>
 
                             <img
-                              src={this.state.imageStatus ? "//202.164.218.74/graphs/iface/" + eth + "/yearly.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
+                              src={this.state.imageStatus ? "http://202.164.218.74/graphs/iface/" + eth + "/yearly.gif" : "//static.wixstatic.com/media/90541a_0f30cc38e553438b9602c278cd37c7ea~mv2.gif" }
                               alt="John Doe"
                               className="mCS_img_loaded"
                               onLoad={this.handleImageLoaded.bind(this)}
