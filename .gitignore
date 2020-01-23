@@ -32,23 +32,6 @@
 /public/packs-test
 
 !/public/img
-!/public/assets/animate
-!/public/assets/blueimp
-!/public/assets/codemirror
-!/public/assets/cropper
-!/public/assets/dropzone
-!/public/assets/fontawesome
-!/public/assets/fonts
-!/public/assets/forms-material
-!/public/assets/fullcalendar
-!/public/assets/intorjs
-!/public/assets/ion
-!/public/assets/jquery
-!/public/assets/jstree
-!/public/assets/mcustomscrollbar
-!/public/assets/nvd3
-!/public/assets/rickshaw
-!/public/assets/summernote
 
 /node_modules
 /yarn-error.log
