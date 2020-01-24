@@ -56,6 +56,7 @@ class Mrtg extends Component {
               								className="mCS_img_loaded"
               								onLoad={this.handleImageLoaded.bind(this)}
               								onError={this.handleImageErrored.bind(this)}
+                              style={{width: '100%',height: 150}}
               							/>
 
               						</center>
@@ -90,6 +91,7 @@ class Mrtg extends Component {
               								className="mCS_img_loaded"
               								onLoad={this.handleImageLoaded.bind(this)}
               								onError={this.handleImageErrored.bind(this)}
+                              style={{width: '100%',height: 150}}
               							/>
 
               						</center>
@@ -128,6 +130,7 @@ class Mrtg extends Component {
                               className="mCS_img_loaded"
                               onLoad={this.handleImageLoaded.bind(this)}
                               onError={this.handleImageErrored.bind(this)}
+                              style={{width: '100%',height: 150}}
                             />
 
                           </center>
@@ -162,6 +165,7 @@ class Mrtg extends Component {
                               className="mCS_img_loaded"
                               onLoad={this.handleImageLoaded.bind(this)}
                               onError={this.handleImageErrored.bind(this)}
+                              style={{width: '100%',height: 150}}
                             />
 
                           </center>
@@ -298,13 +302,19 @@ class App extends React.Component {
 
 						<div className="row">
 
-							<div className="col-sm-12">
+							<div className="col-sm-12" >
 
-								<center>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
+                }}
+              >
 
 									<Chart
-						        width={600}
-						        height={250}
+                    width={550}
+						        height={180}
 						        chartType="Gauge"
 						        loader={<div>Loading Chart</div>}
 						        data={[
@@ -324,7 +334,7 @@ class App extends React.Component {
 						        rootProps={{ 'data-testid': '1' }}
 						      />
 
-								</center>
+								</div>
 
 							</div>
 
